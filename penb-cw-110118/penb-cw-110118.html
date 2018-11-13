@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="penb-cw-110118.css" rel="stylesheet" type="text/css">
+		<script src="penb-cw-110118.js"> </script>
+	</head>
+	<body>
+
+		<h3>This example demonstrates the difference between onmousemove, onmouseenter, onmouseover and onclick.</h3>
+
+		<p>The onmousemove event occurs every time the mouse pointer is moved over the div element.</p>
+
+		<p>The mouseenter event only occurs when the mouse pointer enters the div element. </p>
+
+		<p>The onmouseover event occurs when the mouse pointer enters the div element, and its child elements (p and span).</p>
+
+		<p>The onclick event occurs when the mouse pointer click the div element.</p>
+		
+		<div id = "move">
+			<p>onmousemove: <br> <span id="demo">Mouse over me!</span></p>
+		</div>
+
+		<div id = "enter">
+			<p>onmouseenter: <br> <span id="demo2">Mouse over me!</span></p>
+		</div>
+
+		<div id = "over">
+			<p>onmouseover: <br> <span id="demo3">Mouse over me!</span></p>
+		</div>
+			
+		<div id = "click">
+			<p>onclick: <br> <span id="demo4">Mouse click me!</span></p>
+		</div>
+	</body>
+</html>
