@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ DecisionMaking\r\n
+comment1.params=point
+comment1.target=void\ onMousePress(objectdraw.Location)
+comment2.params=point
+comment2.target=void\ onMouseDrag(objectdraw.Location)
+numComments=3
