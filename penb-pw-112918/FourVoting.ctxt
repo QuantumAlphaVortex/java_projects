@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment1.params=location
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment2.params=textObj\ votes\ myChar
+comment2.target=void\ updateVotes(objectdraw.Text,\ int,\ char)
+numComments=3
