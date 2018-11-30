@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scribble Example</title>
+<meta name="author"  content="Kevin Ankiewicz"/>
+<meta name="date updated"  content="1/19/2018"/>
+<meta name="description"  content="Example of using the canvas element"/>
+<meta charset="utf-8">
+<style>
+    body {margin:0;}
+    canvas { outline:solid black 2px;}
+</style>
+</head>
+<body>
+<canvas id="myCanvas" width="400" height="300" style="width:400px;height:300px;"></canvas><br>
+<form name="myInput">
+<input type="radio" name="color" value="white" checked><i style="background-color:hotpink;color:lightpink;">ERASE</i>
+<input type="radio" name="color" value="black" ><i style="background-color:black;color:SlateGrey ">BLACK</i>
+<input type="radio" name="color" value="whitesmoke"><i style="background-color:silver; color:seashell">WHITE</i>
+<input type="radio" name="color" value="blue"><i style="background-color:blue;color:skyblue">BLUE</i>
+<input type="radio" name="color" value="red"><i style="background-color:red;color:salmon">RED</i>
+<input type="radio" name="color" value="green"><i style="background-color:green;color:springGREEN">GREEN</i>
+<input type="radio" name="color" value="yellow"><i style="background-color:yellow;color:goldenrod">YELLOW</i>
+
+</form>
+    <script>
+        // how to find the value of the radio button that is selected.
+        let myColor = document.querySelector('input[name="color"]:checked').value;
+    </script>
+<script src="Scribble.js"></script>
+
+    
+</body>
+</html>
