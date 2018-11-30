@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Comparison Table Webpage</title>
+<meta charset="UTF-8">
+<style>
+	#title {
+		color: forestgreen;
+	}
+
+	#board {
+		color: indigo;
+	}
+
+	.true {
+		background-color: mediumseagreen;
+	}
+	
+	.false {
+		background-color: tomato;
+	}
+	
+	.top {
+		background-color: gray;
+		color: navy;
+	}
+	
+	.expression {
+		background-color: lightgray;
+	}
+	
+	.why {
+		background-color: lightgray;
+
+	}
+	
+	th,td {
+		border:2px solid black;
+	}
+	
+	table {
+		border-collapse: collapse;
+	}
+</style>
+</head>
+<body id="board">
+<table>
+<caption id="title">Truthiness</caption>
+<tr class="top">
+	<th>Expression</th>
+	<th>Value</th>
+	<th>why?</th>
+</tr>
+<!-- make one more row per example from below-->
+<tr>
+	<td class="expression">2 &lt; 12</td>
+	<td class="true"> true</td>
+	<td class="why">number comparison</td>
+</tr>
+<tr>
+	<td class="expression">2 &lt; "12"</td>
+	<td class="true"> true</td>
+	<td class="why">number comparison</td>
+</td>
+<tr>
+	<td class="expression">2 &lt; "John"</td>
+	<td class="false"> false</td>
+	<td class="why">number comparison</td>
+</tr>
+<tr>
+	<td class="expression">2 &gt; "John"</td>
+	<td class="false"> false</td>
+	<td class="why">number comparison</td>
+<tr>
+	<td class="expression">2 == "John"</td>
+	<td class="false"> false</td>
+	<td class="why">number comparison</td>
+</tr>
+<tr>
+	<td class="expression">"2" &lt; "12"</td>
+	<td class="false"> false</td>
+	<td class="why">number comparison</td>
+</td>
+<tr>
+	<td class="expression">"2" &gt; "12"</td>
+	<td class="true"> true</td>
+	<td class="why">number comparison</td>
+</tr>
+<tr>
+	<td class="expression">"2" == "12"</td>
+	<td class="false"> false</td>
+	<td class="why">number comparison</td>
+</td>
+</table>
+</body>
+</html>
