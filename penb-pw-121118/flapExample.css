@@ -1,0 +1,41 @@
+div {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+#flapContainer {
+	position:relative;
+    transform:none;
+	transition:all 4s;
+    /*SAME AS
+    transition-duration:4s;
+    transition-property: transform;
+    transition-delay:0s;
+    transition-timing-function:linear;
+    */
+    transform-style:preserve-3d; /**/
+    transform-origin:right top 0;
+}
+
+#frontFlap { 
+	background-color: smokewhite;
+	position:absolute;
+	transform:none;
+}
+
+#backFlap {
+	background-color: smokewhite;
+	position:absolute;
+  	transform: rotateY(180deg); /* Standard syntax */
+  	backface-visibility:hidden;
+}
+
+#background {
+	background-color: smokewhite;
+	position:absolute;    
+}
+
+#GM {
+	width: 100%;
+	height: 100%;
+}
