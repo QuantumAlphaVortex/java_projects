@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=left\ top\ canvas
+comment0.target=FunnyFace(double,\ double,\ objectdraw.DrawingCanvas)
+comment1.params=p\ canvas
+comment1.target=FunnyFace(objectdraw.Location,\ objectdraw.DrawingCanvas)
+comment2.params=dx\ dy
+comment2.target=void\ move(double,\ double)
+comment3.params=pt
+comment3.target=boolean\ contains(objectdraw.Location)
+comment4.params=x\ y
+comment4.target=void\ moveTo(double,\ double)
+comment5.params=p
+comment5.target=void\ moveTo(objectdraw.Location)
+numComments=6
