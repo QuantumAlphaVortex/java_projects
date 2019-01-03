@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ drawScarf()
+comment1.params=
+comment1.target=void\ drawPyramid()
+comment2.params=point
+comment2.target=void\ onMouseClick(objectdraw.Location)
+numComments=3
