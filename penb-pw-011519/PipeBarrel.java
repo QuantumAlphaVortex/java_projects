@@ -10,7 +10,7 @@ public class PipeBarrel extends ActiveObject {
 
     public PipeBarrel (Location initialLocation, DrawingCanvas aCanvas) {
         this.canvas = aCanvas;
-        boxGraphic = new FilledRect(initialLocation, 50, 100, canvas);
+
         //start();
         
     }

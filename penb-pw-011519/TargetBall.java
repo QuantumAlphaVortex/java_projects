@@ -13,31 +13,35 @@ public class TargetBall extends ActiveObject {
     private static final double X_STEP_LEFT = -5;
     private double direction = X_STEP_RIGHT;
     // the image of the ball
-    private FilledOval ballGraphic;
+    private FilledOval targetGraphic;
     // the canvas
     private DrawingCanvas canvas;
 
     public TargetBall (Location initialLocation, DrawingCanvas aCanvas) {
         this.canvas = aCanvas;
-        ballGraphic = new FilledOval(initialLocation, SIZE, SIZE, canvas);
+        targetGraphic = new FilledOval(initialLocation, SIZE, SIZE, canvas);
         //start();
         
     }
 
     public void run() {
         
-        while (ballGraphic.getX() >= 0 &&  ballGraphic.getX() <= canvas.getWidth() ) {
-            ballGraphic.move(direction,0);
+        while (targetGraphic.getX() >= 0 &&  targetGraphic.getX() <= canvas.getWidth() ) {
+            targetGraphic.move(direction,0);
             pause(DELAY_TIME);
 
-            if ( ballGraphic.getX() > canvas.getWidth() && direction == X_STEP_RIGHT) {
+            if ( targetGraphic.getX() > canvas.getWidth() && direction == X_STEP_RIGHT) {
                direction =  X_STEP_LEFT;
-               ballGraphic.move(direction*2,0);
-           }else if(ballGraphic.getX() <= 0) { 
+               targetGraphic.move(direction*2,0);
+           }else if(targetGraphic.getX() <= 0) { 
                direction = X_STEP_RIGHT;
-               ballGraphic.move(direction*2,0);
+               targetGraphic.move(direction*2,0);
             }
         }
 
+    }
+    
+    public FilledOval targetGraphic() {
+        return targetGraphic;
     }
 }

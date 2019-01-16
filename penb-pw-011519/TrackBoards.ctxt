@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=aCanvas
+comment0.target=TrackBoards(objectdraw.DrawingCanvas)
+comment1.params=
+comment1.target=boolean\ isAmmo()
+comment2.params=
+comment2.target=void\ removeAmmo()
+comment3.params=
+comment3.target=void\ reload()
+comment4.params=
+comment4.target=void\ addPoint()
+numComments=5
