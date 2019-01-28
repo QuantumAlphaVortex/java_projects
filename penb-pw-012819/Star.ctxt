@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=centerPoint\ nPoints\ inRadius\ outRadius\ canvas
+comment0.target=Star(objectdraw.Location,\ int,\ double,\ double,\ objectdraw.DrawingCanvas)
+comment1.params=point
+comment1.target=boolean\ contains(objectdraw.Location)
+comment2.params=dx\ dy
+comment2.target=void\ move(double,\ double)
+comment3.params=c
+comment3.target=void\ setColor(java.awt.Color)
+numComments=4
