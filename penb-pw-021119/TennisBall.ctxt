@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ size\ canvas
+comment0.target=TennisBall(int,\ int,\ int,\ objectdraw.DrawingCanvas)
+comment1.params=dx\ dy
+comment1.target=void\ move(double,\ double)
+numComments=2
