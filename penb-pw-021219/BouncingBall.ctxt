@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=initialLocation\ initialXSpeed\ initialYSpeed\ aCanvas
+comment0.target=BouncingBall(objectdraw.Location,\ java.lang.Double,\ double,\ objectdraw.DrawingCanvas)
+comment1.params=x\ y
+comment1.target=void\ move(double,\ double)
+comment2.params=point
+comment2.target=boolean\ contains(objectdraw.Location)
+comment3.params=
+comment3.target=double\ getWidth()
+comment4.params=
+comment4.target=boolean\ hitsBottom()
+comment5.params=
+comment5.target=boolean\ hitsSide()
+comment6.params=
+comment6.target=void\ changeColor()
+numComments=7
