@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=origin\ numOfSides\ lengthOfSide
+comment0.target=Polygon(objectdraw.Location,\ int,\ double)
+comment1.params=x\ y\ numOfSides\ lengthOfSide
+comment1.target=Polygon(double,\ double,\ int,\ int)
+comment10.params=color
+comment10.target=void\ setColor(java.awt.Color)
+comment2.params=
+comment2.target=java.lang.String\ whatAmI()
+comment3.params=
+comment3.target=int\ getNumberOfSides()
+comment4.params=
+comment4.target=double\ getLength()
+comment5.params=
+comment5.target=void\ show()
+comment6.params=
+comment6.target=void\ hide()
+comment7.params=loc
+comment7.target=void\ moveTo(objectdraw.Location)
+comment8.params=x\ y
+comment8.target=void\ moveTo(double,\ double)
+comment9.params=dx\ dy
+comment9.target=void\ move(double,\ double)
+numComments=11

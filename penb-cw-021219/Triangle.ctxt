@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=loc\ length\ canvas
+comment0.target=Triangle(objectdraw.Location,\ double,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Triangle\r\n
+comment1.params=
+comment1.target=java.lang.String\ whatAmI()
+numComments=2
